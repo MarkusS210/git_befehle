@@ -1,0 +1,367 @@
+html, body {
+  margin: 10px auto;
+  padding: 0;
+  color: #FFFFFF;
+  background-color: #343434;
+  font-family: "Open Sans",verdana,arial,helvetica,sans-serif;
+}
+
+div#bg1 {
+  margin: 55px 0px;
+  background-color: #FF6800;
+  height: 200px;
+}
+
+ul,li {
+  margin: 0px 2px;
+}
+
+#wrapper {
+  background-color: #464646;
+  color: #CFCFCF;
+  margin: -57px auto;
+  width: 90%;
+  border-radius: 15px;
+  padding: 15px;
+     box-shadow: 0px 2px 3px 3px #0F0F0F;
+  -webkit-box-shadow: 0px 2px 5px 5px #0F0F0F; /* WebKit */
+  -moz-box-shadow: 0px 2px 5px 5px #0F0F0F; /* Firefox */
+}
+/* oben*/
+div#top {
+  margin: 0 auto;
+  padding: 0;
+  background-color: transparent;
+  color: #FF6800;
+  height: 40px;
+}
+
+.toptext {
+  color: #FF6800;
+  background-color: inherit;
+  font-family: "Trebuchet MS",verdana,arial,helvetica,sans-serif;
+  font-style: italic;
+  padding: 5px 30px 0px 0px;
+  font-size: 1.188em;
+  text-align: right;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  color: #DFDFDF;
+  height: 200px;
+  background-color: #FF6800;
+  background-image: linear-gradient(#FF9500 0%, #FF6800 100%);
+  background-image: -webkit-linear-gradient(#FF9500 0%, #FF6800 100%);
+   box-shadow: 0px 2px 3px 3px #2F2F2F;
+  -webkit-box-shadow: 0px 2px 5px 5px #2F2F2F; /* WebKit */
+  -moz-box-shadow: 0px 2px 5px 5px #2F2F2F; /* Firefox */
+}
+
+.headertextbig {
+  font-size: 2em;
+  font-family: Pacifico,cursive,"century gothic",georgia,calibri,serif;
+  letter-spacing: 1px;
+  padding-top: 30px;
+  padding-right: 15px;
+  text-shadow: 1px 1px 2px #0F0F0F;
+  text-align: right;
+  font-weight: bold;
+  font-style:italic;
+}
+
+.headertextsmall {
+  font-size: 1em;
+  font-family: "century gothic",georgia,calibri,serif;
+  letter-spacing: 2px;
+  padding-top: 5px;
+  padding-right: 15px;
+  text-shadow: 1px 1px 2px #303030;
+  text-align: right;
+  font-weight: bold;
+}
+
+/* Hauptteil*/
+main {
+  padding: 0;
+  margin: 0 auto;
+  display: block;  /*wegen Fehldarstellung IE*/
+}
+
+#main-inner {
+  margin: 0 auto;
+  padding: 2% 0 0 0;
+}
+/* Navigation links*/
+aside {
+  width: 25%;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+aside h2 {
+  color: #FF6800;
+  font-family: Pacifico,cursive,"century gothic",georgia,calibri,serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+  margin: 5px 0;
+  padding: 0;
+  text-align: left;
+  border-bottom: 1px solid #FF6800;
+}
+nav {
+  list-style-type:none;
+  padding: 0px;
+  margin: 0px;
+  font-size: 0.938em;
+  text-align: left;
+  background-color: transparent;
+}
+
+nav ul {
+  list-style-type:none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul a:link,
+nav ul a:visited,
+nav ul a:active {
+  color: #BFBFBF;
+  background-color: transparent;
+  padding: 5px;
+  margin: 0;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  border-bottom: 1px dashed #999999;
+}
+
+nav ul a:hover,
+nav ul a:focus {
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #FF6800;
+}
+/* Inhalt*/
+article {
+  margin-left: 27%;
+  padding: 10px 0;
+  font-size: 1em;
+  font-weight: normal;
+  text-align: justify;
+  line-height: 2em;
+}
+article h1 {
+  font-size: 2em;
+  margin: 3px 0;
+  color: #FF6800;
+  font-family: Pacifico,"century gothic",georgia,calibri,serif;
+  letter-spacing: 1px;
+}
+article h2 {
+  color: #7F7F7F;
+  background-color: inherit;
+  font-family: Pacifico,"century gothic",georgia,calibri,serif;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  text-align: left;
+  margin: 3px;
+  padding: 2px;
+}
+article h3 {
+  color: #FF9500;
+  background-color: inherit;
+  font-family: Pacifico,"century gothic",georgia,calibri,serif;
+  font-size: 1.375em;
+  letter-spacing: 2px;
+  font-style: italic;
+  padding-left: 5px;
+  font-weight: normal;
+}
+article h4 {
+  color: #000000;
+  background-color: #FF6800;
+  font-size: 1.313em;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 2px;
+  font-family: Pacifico,"century gothic",georgia,calibri,serif;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px #3F3F3F;
+  text-align: center;
+}
+article h5 {
+  color: #FFFFFF;
+  background-color: inherit;
+  font-family: Pacifico,"century gothic",georgia,calibri,serif;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 2px;
+  letter-spacing: 2px;
+  padding: 0;
+}
+
+article p {
+  margin: 8px 2px;
+}
+ /*unten*/
+
+footer {
+  margin: 0 auto 10px auto;
+  padding: 0;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #BB0025;
+  background-image: linear-gradient(#FF6800 0%, #FF9500 100%);
+  background-image: -webkit-linear-gradient(#FF6800 0%, #FF9500 100%);
+   box-shadow: 0px 2px 3px 3px #2F2F2F;
+  -webkit-box-shadow: 0px 2px 5px 5px #2F2F2F; /* WebKit */
+  -moz-box-shadow: 0px 2px 5px 5px #2F2F2F; /* Firefox */
+}
+
+.fussinhalt  {
+  padding: 10px;
+  font-size: 1em;
+  font-family: "century gothic",calibri,georgia,serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: transparent;
+}
+
+.footerlink {
+  background-color: transparent;
+  text-align: center;
+  font-size: 0.5rem;
+  color: #8F8F8F;
+}
+
+/* allgemeine Angaben*/
+
+a:link, a:visited, a:active {
+  color: #FF6800;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+a:hover {
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.clear {
+ clear: both;
+ margin: 0;
+ padding: 0;
+ line-height: 1px;
+}
+
+/******************Besonderheiten für Bildschirmgroesse max. 768px**********************/
+
+@media (max-width: 768px) {
+
+
+#topnavi {
+  float: none;
+  text-align: center;
+  margin-top: 2px;
+  padding-top: 0;
+}
+
+aside {
+  float: none;
+  width: 100%;
+}
+
+article {
+ margin: 0;
+ width: 100%;
+}
+
+}
+
+/*****************Besonderheiten für Bildschirmgroesse max. 640px***********************/
+
+@media (max-width: 640px) {
+
+div#bg1 {
+  height: 150px;
+}
+
+header {
+  height: 150px;
+}
+
+.headertextbig {
+  padding-top: 10px;
+}
+
+aside h2 {
+  font-size: 1em;
+}
+
+nav {
+  font-size: 0.838em;
+}
+
+article h1,article h2,article h3,article h4,article h5 {
+  font-size: 1em;
+}
+
+article {
+font-size: 0.875em;
+}
+
+.fussinhalt  {
+  font-size: 0.75em;
+}
+
+}
+
+/*****************Besonderheiten für Bildschirmgroesse max. 480px***********************/
+
+@media (max-width: 480px) {
+
+div#bg1 {
+  height: 100px;
+}
+
+#wrapper {
+  width: 100%;
+  padding: 0;
+  border-radius: 0px;
+}
+
+header {
+  height: 100px;
+}
+
+
+.headertextsmall {
+font-size:0.7em;
+}
+
+.headertextbig {
+  font-size: 1em;
+  padding-top: 10px;
+}
+
+.fussinhalt h4 {
+ padding: 2px;
+ font-size: 0.750em;
+}
+
+}
